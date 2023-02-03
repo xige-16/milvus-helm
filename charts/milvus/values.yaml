@@ -4,8 +4,8 @@ cluster:
 
 image:
   all:
-    repository: milvusdb/milvus
-    tag: v2.2.2
+    repository: milvusdb/milvus-dev
+    tag: 2.2-add-metrics
     pullPolicy: IfNotPresent
     ## Optionally specify an array of imagePullSecrets.
     ## Secrets must be manually created in the namespace.
